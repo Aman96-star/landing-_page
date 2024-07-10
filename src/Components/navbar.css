@@ -1,0 +1,131 @@
+
+
+
+
+.nav_1 {
+    /* Basic Styling */
+    height: 10vh;
+    width: 100vw;
+    background-color:white; /* Dark background */
+    color: black; /* White text */
+    display: flex;
+    
+    flex-direction: row;
+    border-bottom: 1px solid #b1b3b6 ;
+    
+}
+
+.nav_1 .sec_1{
+  width: 70%;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.nav_1 .sec_2{
+  margin-left: 100px;
+}
+.nav_1 .sec_2 .nav_list {
+    
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding-top: 10px; /* Remove default padding */
+    display: flex; /* Enable flexbox */
+    flex-direction: row; /* Align items in a row */
+    justify-content: space-around; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    gap: 32px;
+}
+
+.blocker_parent{
+
+}
+
+.blocker_parent .blocker_1{
+    height:80vh ;
+    width: 50vw;
+    background: #000;
+}
+
+.blocker_parent .blocker_2{
+    height:80vh ;
+    width: 50vw;
+   
+}
+.nav_list li {
+    margin: 0 10px; /* Space between items */
+}
+
+/* Sections inside the Navigation Bar */
+
+
+
+/* .sec_4_1 img {
+    width: 100%;
+    height: auto;
+}
+
+.sec_4_2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sec_4_2 .img img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.sec_5_1 {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sec_5_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_5_c1, .sec_5_c2 {
+    color: #fff;
+}
+
+.head_type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.color_circle .c {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.c1 { background-color: black; }
+.c2 { background-color: red; }
+.c3 { background-color: blue; }
+.c4 { background-color: green; }
+
+.quantity p {
+    color: #fff;
+}
+
+.add_to_cart {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sec_5_3 p {
+    color: #fff;
+}
+
+
+.blocker_1, .blocker_2 {
+    margin: 10px 0;
+} */
