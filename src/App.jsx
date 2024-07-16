@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './Components/navbar'
 import Body from './Components/body'
 import Footer from './Components/footer'
+import Slider from './Components/slider_change'
 
 function App() {
  
@@ -11,8 +12,10 @@ function App() {
   return (
     <>
      <div className='App'>
+     
      <Navbar/>
      <Body/>
+     
      </div>
     </>
   )
